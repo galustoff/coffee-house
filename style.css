@@ -250,3 +250,13 @@
   font-size: 20px;
   cursor: pointer;
 }
+
+/*  FOOTER  */
+
+.footer__text {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 28px 0 14px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
