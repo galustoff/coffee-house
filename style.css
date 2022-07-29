@@ -1,3 +1,5 @@
+/*  COMMON STYLES  */
+
 * {
   font-family: 'Oswald', sans-serif;
 }
@@ -6,11 +8,21 @@
   margin: 0;
 }
 
+.h2-heading {
+  margin: 0 0 60px;
+  font-weight: 500;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*  HEADER  */
+
 .header {
   background-color: #fff;
 }
 
-.header .container {
+.header__container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 28px 80px;
@@ -57,6 +69,8 @@
   font-size: 24px;
 }
 
+/*  HOME  */
+
 .home {
   background-image: url(./img/home_bg.webp);
   background-position: center center;
@@ -81,4 +95,50 @@
 .home__line {
   border-top: 10px solid #817070;
   padding: 0 40px;
+}
+
+/*  STORY  */
+
+.story {
+  background-color: #fff;
+}
+
+.story__container {
+  max-width: 1440px;
+  margin: 60px auto;
+  padding: 0 80px;
+}
+
+.story__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.story__img {
+  max-width: 980px;
+}
+
+.story__text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1140px) {
+  .story__content {
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+  }
+
+  .story__img {
+    max-width: 600px;
+  }
+}
+
+/*  BLOG  */
+
+.blog {
+  background-color: #EFEFEF;
 }
