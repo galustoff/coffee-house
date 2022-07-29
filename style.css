@@ -141,4 +141,48 @@
 
 .blog {
   background-color: #EFEFEF;
+  padding: 60px 102px 65px;
+}
+
+.blog__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.card {
+  padding: 20px 20px 46px;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .blog__cards {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 70px;
+    align-items: unset;
+  }
+
+  .card {
+    width: 365px;
+  }
+}
+
+.card__title {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
+.card__text {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0;
+}
+
+.card__img {
+  display: block;
+  width: 100%;
+  margin: 24px 0;
 }
