@@ -8,6 +8,11 @@
 
 .header {
   background-color: #fff;
+}
+
+.header .container {
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 28px 80px;
   display: flex;
   justify-content: space-between;
@@ -52,6 +57,28 @@
   font-size: 24px;
 }
 
-.jumbotron {
-  background-image: url(./img/jumbotron.webp);
+.home {
+  background-image: url(./img/home_bg.webp);
+  background-position: center center;
+  height: 40vw;
+  min-height: 220px;
+  max-height: 622px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__speech {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.home__line {
+  border-top: 10px solid #817070;
+  padding: 0 40px;
 }
